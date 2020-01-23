@@ -1,3 +1,24 @@
+#titre1 {
+    color: rgb(199, 21, 133);
+}
+
+#souligne_1 {
+    text-decoration: underline 2px rgb(199, 21, 133);
+}
+
 #radius {
     border-radius: 100%;
+}
+
+.border_bottom_titre {
+    border-bottom: medium solid rgb(199, 21, 133);
+    width: 70%;
+}
+
+#background_s1 {
+    background-color: rgb(255, 255, 255);
+}
+
+#background_s2 {
+    background-color: rgb(199, 21, 133);
 }
