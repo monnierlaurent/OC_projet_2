@@ -19,11 +19,32 @@
             
             #contenaire_s1 {
                 background-color: rgb(255, 255, 255);
-                width: 400px;
+                width: 500px;
                 height: 915px;
                 padding-left: 30px;
                 display: flex;
                 flex-direction: column;
+            }
+            
+            .container_paragraphe_section_1 {
+                display: flex;
+                flex-direction: row;
+            }
+            
+            .padding_1_paragraphe_section_1 {
+                padding: 20px 5px 5px 5px;
+            }
+            
+            .padding_2_paragraphe_section_1 {
+                padding: 17px 30px 10px 40px;
+            }
+            
+            .padding_3_paragraphe_section_1 {
+                padding: 5px 0px 5px 0px;
+            }
+            
+            .aligement_paragraphe {
+                text-align: justify;
             }
             
             #titre_principal {
@@ -42,6 +63,14 @@
                 padding-bottom: 10px;
                 border-bottom: 1px solid rgb(199, 21, 133);
                 width: 95%;
+            }
+            
+            .fas {
+                color: rgb(199, 21, 133);
+            }
+            
+            .far {
+                color: rgb(199, 21, 133);
             }
             /*section 2*/
             
