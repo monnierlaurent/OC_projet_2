@@ -5,7 +5,6 @@
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
     font-family: 'Roboto', sans-serif;
-    font-size: small;
 }
 
 body {
@@ -20,6 +19,10 @@ body {
 
 .color {
     color: rgb(199, 21, 133);
+}
+
+.text_seize {
+    font-size: 13px;
 }
 
 
@@ -37,12 +40,30 @@ body {
     flex-direction: column;
 }
 
+#contenaire_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height: 150px;
+}
+
 #titre_principal {
     font-size: 30px;
 }
 
 #souligne_1 {
     text-decoration: underline 2px rgb(199, 21, 133);
+}
+
+.container_recommandations {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.article_recommandations {
+    padding: 30px;
 }
 
 
