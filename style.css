@@ -190,11 +190,6 @@ body {
 /* responcive--design--en--dessous--1280--pixels--*/
 
 @media screen and (max-width: 1280px) {
-    body {
-        background-color: rgb(0, 0, 0);
-        display: flex;
-        justify-content: center;
-    }
     #contenaire_principal {
         display: flex;
         flex-direction: column;
@@ -204,6 +199,9 @@ body {
     }
     /* ------section 1------*/
     /*---header---*/
+    h1 {
+        text-align: center;
+    }
     #contenaire_s1 {
         background-color: rgb(255, 255, 255);
         width: auto;
@@ -223,9 +221,6 @@ body {
         height: auto;
         padding: 20px 20px 20px 20px;
     }
-    h1 {
-        text-align: center;
-    }
     .contenaire_article_formation {
         width: auto;
         height: auto;
@@ -241,22 +236,8 @@ body {
         display: flex;
         flex-direction: column;
     }
-    .padding_1_paragraphe_section_1 {
-        padding: 20px 5px 5px 5px;
-    }
-    .padding_2_paragraphe_section_1 {
-        padding: 17px 30px 10px 40px;
-    }
-    .padding_3_paragraphe_section_1 {
-        padding: 5px 0px 5px 0px;
-    }
     .article_recommandations {
         padding: 20px 30px 20px 30px;
-    }
-    .border_bottom_titre {
-        padding-bottom: 10px;
-        border-bottom: 1px solid rgb(199, 21, 133);
-        width: 95%;
     }
     /*------section 2------*/
     #contenaire_s2 {
@@ -289,27 +270,10 @@ body {
         padding: 20px 40px 20px 40px;
     }
     /*---traitement icons aside 'loisirs'---*/
-    .container_icons {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    .broder_icons {
-        border: 2px solid rgb(33, 33, 33);
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        width: 55px;
-        height: 55px;
-        border-radius: 100%;
-    }
     .padding_icons {
         width: auto;
         height: auto;
         padding-bottom: 15px;
-    }
-    #padding_icons_2 {
-        padding-top: 30px;
     }
     /*icons paragraphes formation et experience professionelle*/
     .fa-circle {
