@@ -41,7 +41,7 @@ h1 {
 
 #souligne_develo {
     border-top: 2px solid rgb(206, 147, 216);
-    margin-right: 386px;
+    margin-right: 387px;
 }
 
 .header_article {
@@ -258,6 +258,10 @@ img {
         padding-top: 60px;
         padding-bottom: 60px;
     }
+    #souligne_develo {
+        border-top: 2px solid rgb(206, 147, 216);
+        margin-right: 300px;
+    }
     .align_header_sous_article_2 {
         flex-direction: column;
         padding-top: 27px;
@@ -343,6 +347,10 @@ img {
         padding: 0px 35px 0px 35px;
         width: auto;
         height: auto;
+    }
+    #souligne_develo {
+        border-top: 2px solid rgb(206, 147, 216);
+        margin-right: 262px;
     }
     .container_h1 {
         padding-top: 60px;
@@ -433,6 +441,10 @@ img {
         padding: 0px 35px 0px 35px;
         width: auto;
         height: auto;
+    }
+    #souligne_develo {
+        border-top: 2px solid rgb(206, 147, 216);
+        margin-right: 247px;
     }
     .container_h1 {
         padding-top: 60px;
