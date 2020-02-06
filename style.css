@@ -19,7 +19,7 @@ body {
     display: flex;
     flex-direction: row-reverse;
     background-color: rgb(0, 0, 0);
-    width: 50%;
+    width: 40%;
     min-height: 100%;
     margin: auto;
     font-family: 'Roboto', sans-serif;
@@ -28,9 +28,12 @@ body {
 .contenaire_section_1 {
     background-color: white;
     width: 75%;
+    padding: 2.5em 2.5em 0 2.5em;
 }
 
 .container_h1 {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 16%;
 }
@@ -39,17 +42,26 @@ h1 {
     font-size: 30px;
 }
 
+.margin_titre_principale {
+    margin: 0;
+}
+
 #souligne_develo {
     border-top: 0.15em solid rgb(206, 147, 216);
-    width: 6%;
+    width: 9%;
 }
 
 .container_formation {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 16%;
 }
 
 .container_exp_pro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 100%;
     height: 35%;
 }
@@ -65,10 +77,6 @@ h1 {
     flex-direction: row;
     align-items: center;
     border-bottom: solid 0.15em rgb(206, 147, 216);
-}
-
-.padding_header_article {
-    justify-content: ;
 }
 
 .size-icons_h2 {
@@ -88,10 +96,7 @@ h1 {
 .align_sous_article {
     display: flex;
     flex-direction: row;
-}
-
-.padding_icons {
-    font-size: 10px;
+    align-items: flex-start;
 }
 
 .padding_icons_2 {
@@ -120,16 +125,8 @@ h1 {
     flex-direction: column;
 }
 
-.align_art_recommandations_2 {
-    /*padding-right: 70px;*/
-}
-
 .seize_parag_recommandations {
     font-size: 10px;
-}
-
-.padding-parag_recommandations {
-    /*padding-right: 125px;*/
 }
 
 
@@ -141,13 +138,14 @@ h1 {
     flex-direction: column;
     align-items: center;
     background-color: rgb(206, 147, 216);
-    width: 25%;
+    width: 35%;
     font-size: 10px;
 }
 
 .center_img {
+    padding-top: 2.5em;
     width: 100%;
-    height: 17%;
+    height: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,7 +159,7 @@ img {
 
 .section_contact {
     width: 100%;
-    height: 25%;
+    height: 21%;
 }
 
 .padding_parag_aside {
@@ -182,14 +180,14 @@ img {
 
 .seize_section_loisirs {
     width: 100%;
-    height: 15%;
+    height: 13%;
 }
 
 .fa-xbox {
     border-radius: 100%;
     border: solid 2px rgb(33, 33, 33);
-    width: 40px;
-    height: 40px;
+    width: 1.2em;
+    height: 1.2em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -198,8 +196,8 @@ img {
 .fa-guitar {
     border-radius: 100%;
     border: solid 2px rgb(33, 33, 33);
-    width: 40px;
-    height: 40px;
+    width: 1.2em;
+    height: 1.2em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -208,8 +206,8 @@ img {
 .fa-running {
     border-radius: 100%;
     border: solid 2px rgb(33, 33, 33);
-    width: 40px;
-    height: 40px;
+    width: 1.2em;
+    height: 1.2em;
     display: flex;
     justify-content: center;
     align-items: center;
