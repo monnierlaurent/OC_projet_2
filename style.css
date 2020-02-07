@@ -145,6 +145,10 @@
                 padding-bottom: 1.5em;
             }
             
+            .seize_section {
+                width: 100%;
+            }
+            
             .center_img {
                 padding-top: 2.5em;
                 width: 100%;
@@ -174,10 +178,6 @@
                 flex: auto;
             }
             
-            .seize_section {
-                width: 100%;
-            }
-            
             .icons_aside {
                 border-radius: 100%;
                 border: solid 2px rgb(33, 33, 33);
@@ -197,7 +197,7 @@
             
             @media screen and (max-width:768px) {
                 body {
-                    width: auto;
+                    width: 100%;
                 }
             }
             
@@ -207,14 +207,21 @@
                     padding: 0 0 0 1em;
                 }
                 body {
+                    background-color: white;
                     display: flex;
                     flex-direction: column;
                     width: 100%;
                 }
                 .contenaire_section_1 {
-                    width: 100%;
+                    width: 80%;
                 }
                 .container_aside {
                     width: 100%;
+                }
+            }
+            
+            @media screen and (max-width: 414px) {
+                .contenaire_section_1 {
+                    width: 78%;
                 }
             }
