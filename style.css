@@ -4,11 +4,6 @@
     /*material design purple 200*/
 }
 
-.color_text {
-    color: rgb(66, 66, 66);
-    /*material design grey 800*/
-}
-
 .seize_font_h2 {
     font-size: 15px;
 }
@@ -92,6 +87,8 @@ h1 {
 }
 
 .size-icons_h2 {
+    color: #CE93D8;
+    /*material design purple 200*/
     font-size: 25px;
 }
 
@@ -111,12 +108,15 @@ h1 {
 }
 
 .align_sous_article {
+    color: rgb(66, 66, 66);
     display: flex;
     flex-direction: row;
     align-items: flex-start;
 }
 
 .seize_icons_2 {
+    color: #CE93D8;
+    /*material design purple 200*/
     font-size: 7px;
 }
 
@@ -125,6 +125,7 @@ h1 {
 }
 
 .container_sous_article_recommandations {
+    color: rgb(66, 66, 66);
     display: flex;
     flex-direction: row;
 }
@@ -168,11 +169,14 @@ img {
 }
 
 .padding_parag_aside {
+    color: rgb(66, 66, 66);
     padding: 0 2.5em 0 2.5em;
 }
 
 .backgroud_h2_contact {
     background-color: #212121;
+    color: #CE93D8;
+    /*material design purple 200*/
     text-align: center;
     text-transform: uppercase;
     font-size: 13px;
