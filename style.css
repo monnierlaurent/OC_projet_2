@@ -45,7 +45,7 @@
     .container_h1 {
         display: flex;
         flex-direction: column;
-        padding: 1.5em 0 4em 0;
+        padding: 4em 0 6em 0;
         width: 100%;
     }
     
@@ -54,7 +54,7 @@
     }
     
     .padding_top_article_3 {
-        padding: 1.5em 0 1.2em 0;
+        padding: 0.5em 0 1.2em 0;
     }
     
     .padding_icons_h2 {
@@ -63,7 +63,7 @@
     
     .padding_icons_h3 {
         color: var(--purple);
-        padding: 0 1.5em 1.8em 0;
+        padding: 0 1.5em 1em 0;
     }
     
     .margin_titre_principale {
@@ -109,7 +109,7 @@
     }
     
     .container_sous_article_recommandations {
-        color: var(--grey_2);
+        color: rgb(66, 66, 66);
         display: flex;
         flex-direction: row;
     }
@@ -152,7 +152,7 @@
     }
     
     .padding_parag_aside {
-        color: var(--grey_2);
+        color: rgb(66, 66, 66);
         padding: 0 2.5em 0 2.5em;
     }
     
@@ -184,4 +184,13 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
+    }
+    
+    .margin-recommandation {
+        margin: 0 0 0.5em 0;
+    }
+    
+    .margin-recommandation_2 {
+        margin: 0;
+        padding-bottom: 2em;
     }
