@@ -160,6 +160,10 @@ img {
     border: solid 0.2em rgba(33, 33, 33, 0.200);
 }
 
+a {
+    color: var(--grey_2);
+}
+
 .padding_parag_footer {
     color: rgb(66, 66, 66);
     padding: 0 2.5em 0 2.5em;
