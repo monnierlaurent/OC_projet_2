@@ -22,7 +22,7 @@
 body {
     display: flex;
     flex-direction: row-reverse;
-    /*background-color: var(--black);*/
+    /*background-color: var(--black);*gi/
     background-color: #000000;
     /*material design html_color black*/
     width: 60%;
