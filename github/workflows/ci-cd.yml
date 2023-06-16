@@ -1,0 +1,19 @@
+on:
+  push:
+    branches:
+      - master
+obs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Deploy to PlanetHoster
+        run: |
+          # Installation de l'outil scp
+          sudo apt-get install -y openssh-client
+
+          # Commande pour envoyer le fichier index.html à PlanetHoster
+          scp -r index.html txhkafpp@node57-eu.n0c.com:Local/public_html
